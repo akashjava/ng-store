@@ -1,6 +1,6 @@
 import { UsersState } from '../users/reducers/users.state';
 
 export interface AppState {
-    user:UsersState;
+    usersState:UsersState;
     // setting:any
 }

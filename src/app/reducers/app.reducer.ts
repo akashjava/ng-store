@@ -5,7 +5,7 @@ import { AppState as State } from "./app.state";
 import * as fromUsers from "../users/reducers/users.reducer";
 
 export const reducers: ActionReducerMap<State> = {
-     user:fromUsers.reducer
+     usersState:fromUsers.reducer
   };
   
   /**

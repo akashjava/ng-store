@@ -1,0 +1,10 @@
+<div>
+  <mat-spinner *ngIf="(spinner$ | async)"
+    [value]="true">
+  </mat-spinner>
+  <mat-card *ngFor="let item of users$ | async" style="margin: 5px 0px">
+    <h3>{{ item?.name }}</h3>
+    <h4>{{ item?.mobNo }}</h4>
+    <h5>{{ item?.email }}</h5>
+  </mat-card>
+</div>
